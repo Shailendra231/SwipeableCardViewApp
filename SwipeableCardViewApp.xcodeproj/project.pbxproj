@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB43114F280AA13300C2E902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43114E280AA13300C2E902 /* AppDelegate.swift */; };
+		BB431151280AA13300C2E902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB431150280AA13300C2E902 /* SceneDelegate.swift */; };
+		BB431153280AA13300C2E902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB431152280AA13300C2E902 /* ViewController.swift */; };
+		BB431156280AA13300C2E902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB431154280AA13300C2E902 /* Main.storyboard */; };
+		BB431158280AA13600C2E902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB431157280AA13600C2E902 /* Assets.xcassets */; };
+		BB43115B280AA13600C2E902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB431159280AA13600C2E902 /* LaunchScreen.storyboard */; };
+		BB431166280AA13700C2E902 /* SwipeableCardViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB431165280AA13700C2E902 /* SwipeableCardViewAppTests.swift */; };
+		BB431170280AA13700C2E902 /* SwipeableCardViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43116F280AA13700C2E902 /* SwipeableCardViewAppUITests.swift */; };
+		BB431172280AA13700C2E902 /* SwipeableCardViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB431171280AA13700C2E902 /* SwipeableCardViewAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB431162280AA13700C2E902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB431143280AA13300C2E902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB43114A280AA13300C2E902;
+			remoteInfo = SwipeableCardViewApp;
+		};
+		BB43116C280AA13700C2E902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB431143280AA13300C2E902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB43114A280AA13300C2E902;
+			remoteInfo = SwipeableCardViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB43114B280AA13300C2E902 /* SwipeableCardViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableCardViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB43114E280AA13300C2E902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB431150280AA13300C2E902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB431152280AA13300C2E902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB431155280AA13300C2E902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB431157280AA13600C2E902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB43115A280AA13600C2E902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB43115C280AA13600C2E902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB431161280AA13700C2E902 /* SwipeableCardViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableCardViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB431165280AA13700C2E902 /* SwipeableCardViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewAppTests.swift; sourceTree = "<group>"; };
+		BB43116B280AA13700C2E902 /* SwipeableCardViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableCardViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB43116F280AA13700C2E902 /* SwipeableCardViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewAppUITests.swift; sourceTree = "<group>"; };
+		BB431171280AA13700C2E902 /* SwipeableCardViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB431148280AA13300C2E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB43115E280AA13700C2E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB431168280AA13700C2E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB431142280AA13300C2E902 = {
+			isa = PBXGroup;
+			children = (
+				BB43114D280AA13300C2E902 /* SwipeableCardViewApp */,
+				BB431164280AA13700C2E902 /* SwipeableCardViewAppTests */,
+				BB43116E280AA13700C2E902 /* SwipeableCardViewAppUITests */,
+				BB43114C280AA13300C2E902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB43114C280AA13300C2E902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB43114B280AA13300C2E902 /* SwipeableCardViewApp.app */,
+				BB431161280AA13700C2E902 /* SwipeableCardViewAppTests.xctest */,
+				BB43116B280AA13700C2E902 /* SwipeableCardViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB43114D280AA13300C2E902 /* SwipeableCardViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB43114E280AA13300C2E902 /* AppDelegate.swift */,
+				BB431150280AA13300C2E902 /* SceneDelegate.swift */,
+				BB431152280AA13300C2E902 /* ViewController.swift */,
+				BB431154280AA13300C2E902 /* Main.storyboard */,
+				BB431157280AA13600C2E902 /* Assets.xcassets */,
+				BB431159280AA13600C2E902 /* LaunchScreen.storyboard */,
+				BB43115C280AA13600C2E902 /* Info.plist */,
+			);
+			path = SwipeableCardViewApp;
+			sourceTree = "<group>";
+		};
+		BB431164280AA13700C2E902 /* SwipeableCardViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB431165280AA13700C2E902 /* SwipeableCardViewAppTests.swift */,
+			);
+			path = SwipeableCardViewAppTests;
+			sourceTree = "<group>";
+		};
+		BB43116E280AA13700C2E902 /* SwipeableCardViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB43116F280AA13700C2E902 /* SwipeableCardViewAppUITests.swift */,
+				BB431171280AA13700C2E902 /* SwipeableCardViewAppUITestsLaunchTests.swift */,
+			);
+			path = SwipeableCardViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB43114A280AA13300C2E902 /* SwipeableCardViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB431175280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewApp" */;
+			buildPhases = (
+				BB431147280AA13300C2E902 /* Sources */,
+				BB431148280AA13300C2E902 /* Frameworks */,
+				BB431149280AA13300C2E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeableCardViewApp;
+			productName = SwipeableCardViewApp;
+			productReference = BB43114B280AA13300C2E902 /* SwipeableCardViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB431160280AA13700C2E902 /* SwipeableCardViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB431178280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewAppTests" */;
+			buildPhases = (
+				BB43115D280AA13700C2E902 /* Sources */,
+				BB43115E280AA13700C2E902 /* Frameworks */,
+				BB43115F280AA13700C2E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB431163280AA13700C2E902 /* PBXTargetDependency */,
+			);
+			name = SwipeableCardViewAppTests;
+			productName = SwipeableCardViewAppTests;
+			productReference = BB431161280AA13700C2E902 /* SwipeableCardViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB43116A280AA13700C2E902 /* SwipeableCardViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB43117B280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewAppUITests" */;
+			buildPhases = (
+				BB431167280AA13700C2E902 /* Sources */,
+				BB431168280AA13700C2E902 /* Frameworks */,
+				BB431169280AA13700C2E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB43116D280AA13700C2E902 /* PBXTargetDependency */,
+			);
+			name = SwipeableCardViewAppUITests;
+			productName = SwipeableCardViewAppUITests;
+			productReference = BB43116B280AA13700C2E902 /* SwipeableCardViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB431143280AA13300C2E902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BB43114A280AA13300C2E902 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BB431160280AA13700C2E902 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BB43114A280AA13300C2E902;
+					};
+					BB43116A280AA13700C2E902 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BB43114A280AA13300C2E902;
+					};
+				};
+			};
+			buildConfigurationList = BB431146280AA13300C2E902 /* Build configuration list for PBXProject "SwipeableCardViewApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB431142280AA13300C2E902;
+			productRefGroup = BB43114C280AA13300C2E902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB43114A280AA13300C2E902 /* SwipeableCardViewApp */,
+				BB431160280AA13700C2E902 /* SwipeableCardViewAppTests */,
+				BB43116A280AA13700C2E902 /* SwipeableCardViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB431149280AA13300C2E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB43115B280AA13600C2E902 /* LaunchScreen.storyboard in Resources */,
+				BB431158280AA13600C2E902 /* Assets.xcassets in Resources */,
+				BB431156280AA13300C2E902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB43115F280AA13700C2E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB431169280AA13700C2E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB431147280AA13300C2E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB431153280AA13300C2E902 /* ViewController.swift in Sources */,
+				BB43114F280AA13300C2E902 /* AppDelegate.swift in Sources */,
+				BB431151280AA13300C2E902 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB43115D280AA13700C2E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB431166280AA13700C2E902 /* SwipeableCardViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB431167280AA13700C2E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB431172280AA13700C2E902 /* SwipeableCardViewAppUITestsLaunchTests.swift in Sources */,
+				BB431170280AA13700C2E902 /* SwipeableCardViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB431163280AA13700C2E902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB43114A280AA13300C2E902 /* SwipeableCardViewApp */;
+			targetProxy = BB431162280AA13700C2E902 /* PBXContainerItemProxy */;
+		};
+		BB43116D280AA13700C2E902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB43114A280AA13300C2E902 /* SwipeableCardViewApp */;
+			targetProxy = BB43116C280AA13700C2E902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB431154280AA13300C2E902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB431155280AA13300C2E902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB431159280AA13600C2E902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB43115A280AA13600C2E902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB431173280AA13700C2E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB431174280AA13700C2E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB431176280AA13700C2E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeableCardViewApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB431177280AA13700C2E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeableCardViewApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB431179280AA13700C2E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeableCardViewApp.app/SwipeableCardViewApp";
+			};
+			name = Debug;
+		};
+		BB43117A280AA13700C2E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeableCardViewApp.app/SwipeableCardViewApp";
+			};
+			name = Release;
+		};
+		BB43117C280AA13700C2E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeableCardViewApp;
+			};
+			name = Debug;
+		};
+		BB43117D280AA13700C2E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G829QQ486P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brancosoft.SwipeableCardViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeableCardViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB431146280AA13300C2E902 /* Build configuration list for PBXProject "SwipeableCardViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB431173280AA13700C2E902 /* Debug */,
+				BB431174280AA13700C2E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB431175280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB431176280AA13700C2E902 /* Debug */,
+				BB431177280AA13700C2E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB431178280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB431179280AA13700C2E902 /* Debug */,
+				BB43117A280AA13700C2E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB43117B280AA13700C2E902 /* Build configuration list for PBXNativeTarget "SwipeableCardViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB43117C280AA13700C2E902 /* Debug */,
+				BB43117D280AA13700C2E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB431143280AA13300C2E902 /* Project object */;
+}
