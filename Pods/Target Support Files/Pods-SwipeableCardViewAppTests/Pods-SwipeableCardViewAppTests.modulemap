@@ -1,0 +1,6 @@
+framework module Pods_SwipeableCardViewAppTests {
+  umbrella header "Pods-SwipeableCardViewAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

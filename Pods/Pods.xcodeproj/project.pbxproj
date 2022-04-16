@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF52A73595F562A25326B02BCF75FF7 /* Pods-SwipeableCardViewAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA4448EBA07A42B7FDF9CDC6B40212 /* Pods-SwipeableCardViewAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1644530B9087632C39A06B30C8371A51 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5973ACFF68D269105D50B3A0A4AEB03 /* CircleRotateAnimatable.swift */; };
+		1700B992223AB3E7410F712CA99D745A /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0869AA2F90E19388312EC24D7F2AF9 /* EasingAnimatable.swift */; };
+		1ABF3063497D422EFD449E0AEE6029A4 /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6ACB713544190B1C43BCE96B0ECA /* Gemini-dummy.m */; };
+		1BBF4D7C8F0AB61D9414B4F4DC17599A /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DB55584C607D87C6B41DDC9950E507 /* GeminiCollectionView.swift */; };
+		313E56B016048B97AB843060B2373FF2 /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2558DCB9D2C38160BCF369AA90F6B2 /* CustomAnimatable.swift */; };
+		335A82F3DE92994F230B5204DD315091 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB9BC44B89CCE09AC81067C1678E57 /* PitchRotationAnimatable.swift */; };
+		388566174D01668D6254BF94B79904B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A41D0BAA135F575C4C02037FB863B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D901EB0E8E860D376E6514F5D5D3579 /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B464A7752E7BBDE7E1411FAC558EC1 /* YawRotationAnimatable.swift */; };
+		65CBB4BBD05C25160FEA1C2BDADCF6A1 /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A531CD087836253E9D2A1A4A2E17AF /* GeminiAnimationModel.swift */; };
+		6638D246331476F1C6B2A89410548133 /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60411D217AC6DDD06C27F07E9FFCB7A3 /* CubeAnimatable.swift */; };
+		68B48FE8CC274004D468217397A2121B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7361C43D4F6212CA375091055D83DE06 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9650343B63220A7BE52ADC434179E2D /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m */; };
+		73AB8C5C36F62AAB7D4A1F6E82C3954E /* Pods-SwipeableCardViewApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4EAE47B33A8D86D8C2C8099AE8624 /* Pods-SwipeableCardViewApp-dummy.m */; };
+		86D2C672D52354503E64F6F4791EBC43 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24EFE6F3C643C002AD1B2DE3D1CF9B1 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A79169564F51EF15E32C1951308CD0E /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708459084535B269C42FE6F84B914AFA /* ScaleAnimatable.swift */; };
+		96AC5BB2CDF17641D8416FB455042843 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF3B5DA4260FAE33BF462B7C51176C /* UIViewExtension.swift */; };
+		9B5F730CB7587B9A714FE3D370F5F9A4 /* Pods-SwipeableCardViewAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEE5274CC26693D31CC92927E53F41E /* Pods-SwipeableCardViewAppTests-dummy.m */; };
+		9F1A76F96078AED77F58A3E3F2F5FCF8 /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A608E9B800CE4F3D735A1213568B2 /* EasingFunction.swift */; };
+		A94EEB45A1E85B58875FA9CB66C1F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBD15B11B998BCBECBCF30D64FD7E8BB /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 299424475193EC60DB9C7E4596063C00 /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C14C3D0E5422573E96E6C7CCCBA9FB1D /* Pods-SwipeableCardViewApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F51CF8D7EA64AB811A8B983C4F68359 /* Pods-SwipeableCardViewApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39B5B85A8187BC73414A324B4279B7E /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51D6FB22B25046F2B0514432049C24 /* UIAppearanceAnimatable.swift */; };
+		D6B3B83B4CFC9DD9779C4F29240F5AF6 /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC68C4C9164CB3C2093DCD83BE268 /* RollRotationAnimatable.swift */; };
+		EB21B7D3A2DB02DEC1B20939F1BA90D6 /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3E9B8F80F441EF6126BB1E5053624 /* GeminiCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EC93A1583113AC81B8078CFFC52A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
+		};
+		4AB60C80C6C428C2512DF8B969CE0D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
+		};
+		BD3B5657A4AA101B431782E697589298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F749C898FBDE08697FC75DAED0857AFD;
+			remoteInfo = "Pods-SwipeableCardViewApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D35B1FBA9F6F89A96AAEFDAA12D187 /* Pods-SwipeableCardViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		09DB55584C607D87C6B41DDC9950E507 /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		0D6442626025F5A51E9A0F7A9EB00639 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1983AC01C4CFEFD3309FE8D490FFDCED /* Pods-SwipeableCardViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewApp.release.xcconfig"; sourceTree = "<group>"; };
+		299424475193EC60DB9C7E4596063C00 /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
+		2CAE7A35E05A336CF2EE65B7D3BB5964 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3566ACD04CA6B4738DB548FCD409DFAD /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gemini.modulemap; sourceTree = "<group>"; };
+		3A6A608E9B800CE4F3D735A1213568B2 /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		3BAE4B6079CD706EA9062E23733771F2 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B89983BAEFBB6FA4CEF2D8F88FF4B2 /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
+		571BFA8C3FB0E2BDF3C87B2B0B5BE500 /* Pods-SwipeableCardViewAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeableCardViewAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D9FF7881E9B9B90021084283CFFAB98 /* Pods-SwipeableCardViewApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeableCardViewApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60411D217AC6DDD06C27F07E9FFCB7A3 /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		6A22B9AD088AF1E82E7582F8B7341613 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		708459084535B269C42FE6F84B914AFA /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		730117A90848E419786816AD00B8B0BB /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests"; path = Pods_SwipeableCardViewApp_SwipeableCardViewAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FCE2694F20ED566F772D71A95BFDB /* Gemini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.debug.xcconfig; sourceTree = "<group>"; };
+		7A7EFBB115C7BC6F78280E6423042CE9 /* Gemini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.release.xcconfig; sourceTree = "<group>"; };
+		7BC74312940B5D4AAFB1C3887ABA498D /* Pods-SwipeableCardViewApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeableCardViewApp-frameworks.sh"; sourceTree = "<group>"; };
+		7F412FDCD8CFBB12F2B3B8F6E0C6B91E /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83DB9BC44B89CCE09AC81067C1678E57 /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
+		8F0C6ACB713544190B1C43BCE96B0ECA /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
+		8F51CF8D7EA64AB811A8B983C4F68359 /* Pods-SwipeableCardViewApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeableCardViewApp-umbrella.h"; sourceTree = "<group>"; };
+		921FC938F67E190F9DE8352C50C80A27 /* Gemini-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gemini-Info.plist"; sourceTree = "<group>"; };
+		92B464A7752E7BBDE7E1411FAC558EC1 /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
+		92E2236C1803AC905974B8CA7D2FCB67 /* Pods-SwipeableCardViewAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A531CD087836253E9D2A1A4A2E17AF /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		A2A515C5D41C47F99817F4A420BB13F6 /* Pods-SwipeableCardViewApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwipeableCardViewApp"; path = Pods_SwipeableCardViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71552D1BD670ABB3735EE9BA4E649F5 /* Pods-SwipeableCardViewApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeableCardViewApp.modulemap"; sourceTree = "<group>"; };
+		BDFF3B5DA4260FAE33BF462B7C51176C /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
+		C24EFE6F3C643C002AD1B2DE3D1CF9B1 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		C9B3E9B8F80F441EF6126BB1E5053624 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
+		C9E6E9FBAA82024BF090AF26359A282A /* Pods-SwipeableCardViewAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewAppTests-Info.plist"; sourceTree = "<group>"; };
+		CAD3725E0EC9AFB64761C74A469DBA18 /* Pods-SwipeableCardViewApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBEE5274CC26693D31CC92927E53F41E /* Pods-SwipeableCardViewAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeableCardViewAppTests-dummy.m"; sourceTree = "<group>"; };
+		D17A7165C51465D1E0D74407B36D0AFD /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-Info.plist"; sourceTree = "<group>"; };
+		D71BBA51ADE117DB9899D72496A7C1C7 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.modulemap"; sourceTree = "<group>"; };
+		DB2558DCB9D2C38160BCF369AA90F6B2 /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
+		DCA4EAE47B33A8D86D8C2C8099AE8624 /* Pods-SwipeableCardViewApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeableCardViewApp-dummy.m"; sourceTree = "<group>"; };
+		DE51D6FB22B25046F2B0514432049C24 /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
+		E1AC571FE5B43EBAF8DD99A5F8C3E9CB /* Pods-SwipeableCardViewAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeableCardViewAppTests.modulemap"; sourceTree = "<group>"; };
+		E25C3DCC3D0EA1C9008368E450811C50 /* Pods-SwipeableCardViewAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4CA4448EBA07A42B7FDF9CDC6B40212 /* Pods-SwipeableCardViewAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeableCardViewAppTests-umbrella.h"; sourceTree = "<group>"; };
+		E5973ACFF68D269105D50B3A0A4AEB03 /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
+		E5D3AA47BD159F5ED1A9B4B890F8802F /* Pods-SwipeableCardViewAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableCardViewAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4AAE2A7CBBE708445E4848F499325C5 /* Pods-SwipeableCardViewAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwipeableCardViewAppTests"; path = Pods_SwipeableCardViewAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BC3B87F6378EF87976D63FD55DBC5A /* Pods-SwipeableCardViewApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableCardViewApp-Info.plist"; sourceTree = "<group>"; };
+		F9650343B63220A7BE52ADC434179E2D /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m"; sourceTree = "<group>"; };
+		FC0869AA2F90E19388312EC24D7F2AF9 /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
+		FE6AC68C4C9164CB3C2093DCD83BE268 /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2CA2E7FD7FECF6DF7588BBC560FA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94EEB45A1E85B58875FA9CB66C1F446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3663F1B3DDE072E9151016CEA98C3AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388566174D01668D6254BF94B79904B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B38887FF1A5F52DBD644E1A8A5E28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B48FE8CC274004D468217397A2121B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F014205C04DF40AF9146B1405EC7850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41D0BAA135F575C4C02037FB863B82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0422B19A069D0D6B48D454936737EBEA /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				E5973ACFF68D269105D50B3A0A4AEB03 /* CircleRotateAnimatable.swift */,
+				60411D217AC6DDD06C27F07E9FFCB7A3 /* CubeAnimatable.swift */,
+				DB2558DCB9D2C38160BCF369AA90F6B2 /* CustomAnimatable.swift */,
+				FC0869AA2F90E19388312EC24D7F2AF9 /* EasingAnimatable.swift */,
+				3A6A608E9B800CE4F3D735A1213568B2 /* EasingFunction.swift */,
+				A0A531CD087836253E9D2A1A4A2E17AF /* GeminiAnimationModel.swift */,
+				C9B3E9B8F80F441EF6126BB1E5053624 /* GeminiCell.swift */,
+				09DB55584C607D87C6B41DDC9950E507 /* GeminiCollectionView.swift */,
+				83DB9BC44B89CCE09AC81067C1678E57 /* PitchRotationAnimatable.swift */,
+				FE6AC68C4C9164CB3C2093DCD83BE268 /* RollRotationAnimatable.swift */,
+				708459084535B269C42FE6F84B914AFA /* ScaleAnimatable.swift */,
+				DE51D6FB22B25046F2B0514432049C24 /* UIAppearanceAnimatable.swift */,
+				BDFF3B5DA4260FAE33BF462B7C51176C /* UIViewExtension.swift */,
+				92B464A7752E7BBDE7E1411FAC558EC1 /* YawRotationAnimatable.swift */,
+				5A30A3C2357802255678DE6B393985C1 /* Support Files */,
+			);
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		18A58AF3571449BAF0805925505A17E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */,
+				A2A515C5D41C47F99817F4A420BB13F6 /* Pods-SwipeableCardViewApp */,
+				730117A90848E419786816AD00B8B0BB /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */,
+				F4AAE2A7CBBE708445E4848F499325C5 /* Pods-SwipeableCardViewAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DABEF9C0ECD8BD98CFE3BD74B3654BB /* Pods-SwipeableCardViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AC571FE5B43EBAF8DD99A5F8C3E9CB /* Pods-SwipeableCardViewAppTests.modulemap */,
+				571BFA8C3FB0E2BDF3C87B2B0B5BE500 /* Pods-SwipeableCardViewAppTests-acknowledgements.markdown */,
+				92E2236C1803AC905974B8CA7D2FCB67 /* Pods-SwipeableCardViewAppTests-acknowledgements.plist */,
+				CBEE5274CC26693D31CC92927E53F41E /* Pods-SwipeableCardViewAppTests-dummy.m */,
+				C9E6E9FBAA82024BF090AF26359A282A /* Pods-SwipeableCardViewAppTests-Info.plist */,
+				E4CA4448EBA07A42B7FDF9CDC6B40212 /* Pods-SwipeableCardViewAppTests-umbrella.h */,
+				E5D3AA47BD159F5ED1A9B4B890F8802F /* Pods-SwipeableCardViewAppTests.debug.xcconfig */,
+				E25C3DCC3D0EA1C9008368E450811C50 /* Pods-SwipeableCardViewAppTests.release.xcconfig */,
+			);
+			name = "Pods-SwipeableCardViewAppTests";
+			path = "Target Support Files/Pods-SwipeableCardViewAppTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A30A3C2357802255678DE6B393985C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3566ACD04CA6B4738DB548FCD409DFAD /* Gemini.modulemap */,
+				8F0C6ACB713544190B1C43BCE96B0ECA /* Gemini-dummy.m */,
+				921FC938F67E190F9DE8352C50C80A27 /* Gemini-Info.plist */,
+				52B89983BAEFBB6FA4CEF2D8F88FF4B2 /* Gemini-prefix.pch */,
+				299424475193EC60DB9C7E4596063C00 /* Gemini-umbrella.h */,
+				799FCE2694F20ED566F772D71A95BFDB /* Gemini.debug.xcconfig */,
+				7A7EFBB115C7BC6F78280E6423042CE9 /* Gemini.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gemini";
+			sourceTree = "<group>";
+		};
+		69226DCC973FFE26FCE52957AC97FA42 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7CE76FC1D7BCF8D43EC9194D675B /* Pods-SwipeableCardViewApp */,
+				7F877E4B7CCE5BB7B6CF5035F4877519 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */,
+				1DABEF9C0ECD8BD98CFE3BD74B3654BB /* Pods-SwipeableCardViewAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7856A93C4961AD6697457A3C4D637766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0422B19A069D0D6B48D454936737EBEA /* Gemini */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F877E4B7CCE5BB7B6CF5035F4877519 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D71BBA51ADE117DB9899D72496A7C1C7 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.modulemap */,
+				7F412FDCD8CFBB12F2B3B8F6E0C6B91E /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.markdown */,
+				3BAE4B6079CD706EA9062E23733771F2 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-acknowledgements.plist */,
+				F9650343B63220A7BE52ADC434179E2D /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m */,
+				2CAE7A35E05A336CF2EE65B7D3BB5964 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-frameworks.sh */,
+				D17A7165C51465D1E0D74407B36D0AFD /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-Info.plist */,
+				C24EFE6F3C643C002AD1B2DE3D1CF9B1 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h */,
+				6A22B9AD088AF1E82E7582F8B7341613 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.debug.xcconfig */,
+				0D6442626025F5A51E9A0F7A9EB00639 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.release.xcconfig */,
+			);
+			name = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests";
+			path = "Target Support Files/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests";
+			sourceTree = "<group>";
+		};
+		C70C7CE76FC1D7BCF8D43EC9194D675B /* Pods-SwipeableCardViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				A71552D1BD670ABB3735EE9BA4E649F5 /* Pods-SwipeableCardViewApp.modulemap */,
+				5D9FF7881E9B9B90021084283CFFAB98 /* Pods-SwipeableCardViewApp-acknowledgements.markdown */,
+				CAD3725E0EC9AFB64761C74A469DBA18 /* Pods-SwipeableCardViewApp-acknowledgements.plist */,
+				DCA4EAE47B33A8D86D8C2C8099AE8624 /* Pods-SwipeableCardViewApp-dummy.m */,
+				7BC74312940B5D4AAFB1C3887ABA498D /* Pods-SwipeableCardViewApp-frameworks.sh */,
+				F8BC3B87F6378EF87976D63FD55DBC5A /* Pods-SwipeableCardViewApp-Info.plist */,
+				8F51CF8D7EA64AB811A8B983C4F68359 /* Pods-SwipeableCardViewApp-umbrella.h */,
+				06D35B1FBA9F6F89A96AAEFDAA12D187 /* Pods-SwipeableCardViewApp.debug.xcconfig */,
+				1983AC01C4CFEFD3309FE8D490FFDCED /* Pods-SwipeableCardViewApp.release.xcconfig */,
+			);
+			name = "Pods-SwipeableCardViewApp";
+			path = "Target Support Files/Pods-SwipeableCardViewApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7856A93C4961AD6697457A3C4D637766 /* Pods */,
+				18A58AF3571449BAF0805925505A17E3 /* Products */,
+				69226DCC973FFE26FCE52957AC97FA42 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DEA42C1D2A423633723D1C02AB9F590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14C3D0E5422573E96E6C7CCCBA9FB1D /* Pods-SwipeableCardViewApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE1A6B78A81D70B55E01806892097DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD15B11B998BCBECBCF30D64FD7E8BB /* Gemini-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99782F6C7E8E2DC02DC45DD8D6E782F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF52A73595F562A25326B02BCF75FF7 /* Pods-SwipeableCardViewAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66907B3DD2D9FA49725A3ED307F7A72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2C672D52354503E64F6F4791EBC43 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A15155034D2AD440680F7CB2E45ACC46 /* Pods-SwipeableCardViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB5AC7F574B5B498A2EA20423E3D12F /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewAppTests" */;
+			buildPhases = (
+				99782F6C7E8E2DC02DC45DD8D6E782F6 /* Headers */,
+				6CF450A20D2373BBFE48CF7FDF5426A9 /* Sources */,
+				F014205C04DF40AF9146B1405EC7850D /* Frameworks */,
+				F5C38049D897CAADCCA8989810FBE8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F5EF4436F5F19ABF3F57A52F11E977 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwipeableCardViewAppTests";
+			productName = Pods_SwipeableCardViewAppTests;
+			productReference = F4AAE2A7CBBE708445E4848F499325C5 /* Pods-SwipeableCardViewAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6475238BB09AAF0FB50939C40809CC87 /* Build configuration list for PBXNativeTarget "Gemini" */;
+			buildPhases = (
+				8EE1A6B78A81D70B55E01806892097DB /* Headers */,
+				9E81C879DAED884F5AC60615C2EA7616 /* Sources */,
+				3663F1B3DDE072E9151016CEA98C3AD1 /* Frameworks */,
+				796ABDBDF4E76B48EA2E3E299981B259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gemini;
+			productName = Gemini;
+			productReference = 4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E191DEE56101A72EDBBA5103DF1CE70C /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3D3EE102E0E9FD8D1D946BBEDCF116 /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests" */;
+			buildPhases = (
+				B66907B3DD2D9FA49725A3ED307F7A72 /* Headers */,
+				F621FCB6E9003C03F82CB65F4549FCF7 /* Sources */,
+				93B38887FF1A5F52DBD644E1A8A5E28B /* Frameworks */,
+				A7E0D688E96D4079B7E5B5964C5268CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30D4BB92AF626079CAE9C9DF295449B /* PBXTargetDependency */,
+			);
+			name = "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests";
+			productName = Pods_SwipeableCardViewApp_SwipeableCardViewAppUITests;
+			productReference = 730117A90848E419786816AD00B8B0BB /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F749C898FBDE08697FC75DAED0857AFD /* Pods-SwipeableCardViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF8F2DE2586F3D8F55BE9B27CE38B0E /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewApp" */;
+			buildPhases = (
+				2DEA42C1D2A423633723D1C02AB9F590 /* Headers */,
+				644CA8FDF9F243A0F82CA7DAE35C9B66 /* Sources */,
+				1A2CA2E7FD7FECF6DF7588BBC560FA96 /* Frameworks */,
+				5150E03C0AC97B92E4DE11F4AD2E3D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191C389A5C1BA136917E6143E273E625 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwipeableCardViewApp";
+			productName = Pods_SwipeableCardViewApp;
+			productReference = A2A515C5D41C47F99817F4A420BB13F6 /* Pods-SwipeableCardViewApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 18A58AF3571449BAF0805925505A17E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */,
+				F749C898FBDE08697FC75DAED0857AFD /* Pods-SwipeableCardViewApp */,
+				E191DEE56101A72EDBBA5103DF1CE70C /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests */,
+				A15155034D2AD440680F7CB2E45ACC46 /* Pods-SwipeableCardViewAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5150E03C0AC97B92E4DE11F4AD2E3D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796ABDBDF4E76B48EA2E3E299981B259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E0D688E96D4079B7E5B5964C5268CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C38049D897CAADCCA8989810FBE8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644CA8FDF9F243A0F82CA7DAE35C9B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AB8C5C36F62AAB7D4A1F6E82C3954E /* Pods-SwipeableCardViewApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF450A20D2373BBFE48CF7FDF5426A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F730CB7587B9A714FE3D370F5F9A4 /* Pods-SwipeableCardViewAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E81C879DAED884F5AC60615C2EA7616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1644530B9087632C39A06B30C8371A51 /* CircleRotateAnimatable.swift in Sources */,
+				6638D246331476F1C6B2A89410548133 /* CubeAnimatable.swift in Sources */,
+				313E56B016048B97AB843060B2373FF2 /* CustomAnimatable.swift in Sources */,
+				1700B992223AB3E7410F712CA99D745A /* EasingAnimatable.swift in Sources */,
+				9F1A76F96078AED77F58A3E3F2F5FCF8 /* EasingFunction.swift in Sources */,
+				1ABF3063497D422EFD449E0AEE6029A4 /* Gemini-dummy.m in Sources */,
+				65CBB4BBD05C25160FEA1C2BDADCF6A1 /* GeminiAnimationModel.swift in Sources */,
+				EB21B7D3A2DB02DEC1B20939F1BA90D6 /* GeminiCell.swift in Sources */,
+				1BBF4D7C8F0AB61D9414B4F4DC17599A /* GeminiCollectionView.swift in Sources */,
+				335A82F3DE92994F230B5204DD315091 /* PitchRotationAnimatable.swift in Sources */,
+				D6B3B83B4CFC9DD9779C4F29240F5AF6 /* RollRotationAnimatable.swift in Sources */,
+				8A79169564F51EF15E32C1951308CD0E /* ScaleAnimatable.swift in Sources */,
+				C39B5B85A8187BC73414A324B4279B7E /* UIAppearanceAnimatable.swift in Sources */,
+				96AC5BB2CDF17641D8416FB455042843 /* UIViewExtension.swift in Sources */,
+				5D901EB0E8E860D376E6514F5D5D3579 /* YawRotationAnimatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F621FCB6E9003C03F82CB65F4549FCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7361C43D4F6212CA375091055D83DE06 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191C389A5C1BA136917E6143E273E625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = 15EC93A1583113AC81B8078CFFC52A64 /* PBXContainerItemProxy */;
+		};
+		D30D4BB92AF626079CAE9C9DF295449B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = 4AB60C80C6C428C2512DF8B969CE0D7D /* PBXContainerItemProxy */;
+		};
+		F9F5EF4436F5F19ABF3F57A52F11E977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwipeableCardViewApp";
+			target = F749C898FBDE08697FC75DAED0857AFD /* Pods-SwipeableCardViewApp */;
+			targetProxy = BD3B5657A4AA101B431782E697589298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		341B90F4EAE7BA7CA125C9ED818EB32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799FCE2694F20ED566F772D71A95BFDB /* Gemini.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5163AC02003B854FF3F5A3B6698E3F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D35B1FBA9F6F89A96AAEFDAA12D187 /* Pods-SwipeableCardViewApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewApp/Pods-SwipeableCardViewApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewApp/Pods-SwipeableCardViewApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		754FF37E6840434B2CB6DD80319EDC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1983AC01C4CFEFD3309FE8D490FFDCED /* Pods-SwipeableCardViewApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewApp/Pods-SwipeableCardViewApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewApp/Pods-SwipeableCardViewApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8742E15C4B33B4EBF96A2225E775D7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7EFBB115C7BC6F78280E6423042CE9 /* Gemini.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8609543598193D1C30F7924866EE636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25C3DCC3D0EA1C9008368E450811C50 /* Pods-SwipeableCardViewAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewAppTests/Pods-SwipeableCardViewAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewAppTests/Pods-SwipeableCardViewAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEAA8CC47B4DF5C2F5E7C29A7E6BC9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A22B9AD088AF1E82E7582F8B7341613 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D957305CCFD5143CCC57A23EFB0530BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D3AA47BD159F5ED1A9B4B890F8802F /* Pods-SwipeableCardViewAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewAppTests/Pods-SwipeableCardViewAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewAppTests/Pods-SwipeableCardViewAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD396758A4E37F6016E931C6DBC3B5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6442626025F5A51E9A0F7A9EB00639 /* Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests/Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB5AC7F574B5B498A2EA20423E3D12F /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957305CCFD5143CCC57A23EFB0530BA /* Debug */,
+				C8609543598193D1C30F7924866EE636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF8F2DE2586F3D8F55BE9B27CE38B0E /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5163AC02003B854FF3F5A3B6698E3F77 /* Debug */,
+				754FF37E6840434B2CB6DD80319EDC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6475238BB09AAF0FB50939C40809CC87 /* Build configuration list for PBXNativeTarget "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341B90F4EAE7BA7CA125C9ED818EB32C /* Debug */,
+				8742E15C4B33B4EBF96A2225E775D7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3D3EE102E0E9FD8D1D946BBEDCF116 /* Build configuration list for PBXNativeTarget "Pods-SwipeableCardViewApp-SwipeableCardViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAA8CC47B4DF5C2F5E7C29A7E6BC9BB /* Debug */,
+				DD396758A4E37F6016E931C6DBC3B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwipeableCardViewApp_SwipeableCardViewAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SwipeableCardViewApp_SwipeableCardViewAppUITests
+@end
