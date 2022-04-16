@@ -9,7 +9,7 @@ import UIKit
 
 class SettingsTableViewCell: UITableViewCell {
 
-    //MARK:- DCLARE @IBOUTLET HERE
+    //MARK:- DECLARE @IBOUTLET HERE
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet var btnSelect: UIButton!
     

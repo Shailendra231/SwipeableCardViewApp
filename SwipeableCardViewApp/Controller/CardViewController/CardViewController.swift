@@ -28,6 +28,7 @@ class CardViewController: UIViewController {
         //calling content api
         callingContentApi()
         
+        //Removing selected animation name
         UserDefaults.standard.removeObject(forKey: "selectedName")
     }
     
@@ -41,7 +42,6 @@ class CardViewController: UIViewController {
         present(vc, animated: true, completion: nil)
     }
     
-    
 }
 
 
@@ -54,11 +54,9 @@ extension CardViewController : UICollectionViewDelegate , UICollectionViewDataSo
         cardCollectionView.animateVisibleCells()
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return idArray.count
     }
-    
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CardCollectionViewCell", for: indexPath) as! CardCollectionViewCell
@@ -81,11 +79,11 @@ extension CardViewController : UICollectionViewDelegate , UICollectionViewDataSo
                 self.lblStaus.text = "\(indexPath.row + 1)/\(totalIDArray.count )"
 
             } else {
-                let percentageChange = (Float(1.0) / Float(totalIDArray.count) ) * 100
-                let totalPercentage = (percentageChange *  Float(idArray.count))
-                let updateProgress = ((totalPercentage * 0.001) - 1.0)
-                print(updateProgress)
+                
+                let percentageChange = (Float(1.0) / Float(totalIDArray.count) ) * 1
+                let updateProgress = (Float(percentageChange * Float(idArray.count)))
                 self.progressView.setProgress(Float(updateProgress), animated: true)
+                self.lblStaus.text = "\(idArray.count)/\(totalIDArray.count )"
                 self.cardCollectionView.animateCell(cell)
             }
         }

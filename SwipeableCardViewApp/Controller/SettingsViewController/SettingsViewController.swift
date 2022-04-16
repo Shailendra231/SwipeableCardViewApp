@@ -14,13 +14,12 @@ protocol settingsProtocol {
 
 
 class SettingsViewController: UIViewController {
-
+    
     //MARK:- DECLARE IBOUTLET HERE
     @IBOutlet weak var settingsTableView:UITableView!
     
-   // Assigning delegate
+    // Assigning delegate
     var delegate:settingsProtocol?
-    
     
     var nameArray = ["Cube","Roll Rotation", "Pitch Rotation", "Scale" , "Custom", "Drag"]
     
@@ -28,11 +27,9 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         settingsTableView.delegate = self
         settingsTableView.dataSource = self
         selectedName = UserDefaults.standard.value(forKey: "selectedName") as? String ?? ""
-        
     }
     
     // CREATE BUTTON ACTION HERE
@@ -56,6 +53,7 @@ extension SettingsViewController:UITableViewDelegate , UITableViewDataSource {
         cell.btnSelect.addTarget(self, action: #selector(seletedSetting), for: .touchUpInside)
         cell.btnSelect.tag = indexPath.row
         
+        //Showing selected and non selected button here
         if selectedName == nameArray[indexPath.row] {
             cell.btnSelect.setImage(UIImage(systemName: "circle.circle.fill"), for: .normal)
             cell.btnSelect.tintColor = UIColor.black

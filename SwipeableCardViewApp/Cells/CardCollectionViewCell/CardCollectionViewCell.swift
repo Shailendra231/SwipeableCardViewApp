@@ -10,7 +10,7 @@ import Gemini
 
 class CardCollectionViewCell: GeminiCell {
     
-    //MARK:- DCLARE @IBOUTLET HERE
+    //MARK:- DECLARE @IBOUTLET HERE
     @IBOutlet weak var customShadowView: UIView!
     @IBOutlet var labelText: UILabel!
     @IBOutlet var imgBackground: UIImageView!
