@@ -6,9 +6,10 @@ A `swipeable` card view, where you read content of card view just by swping. It 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Shailendra231/SwipeableCardViewApp/blob/main/App%20Images/firstscreenshot.png)
 <img src="https://github.com/Shailendra231/SwipeableCardViewApp/blob/main/App%20Images/firstscreenshot.png" width="414" height="869">
+
 <img src="(https://github.com/Shailendra231/SwipeableCardViewApp/blob/main/App%20Images/secondscreenshot.png" width="414" height="869">
+
 <img src="https://github.com/Shailendra231/SwipeableCardViewApp/blob/main/App%20Images/thirdscreenshot.png" width="414" height="869">
 
 
